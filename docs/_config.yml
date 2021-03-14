@@ -18,18 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 信伟的主页
+title: 信伟的主页     
+
 email: xinween.gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   信伟的个人博客正式上线了，主要会写些关于学习编程的过程以及一些关于制药行业设备验证的一些文章，欢迎大家一起来交流。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-微信号: Aiden_Xin
-github_username:  xinween
 
+github_username:  xinween
+twitter: 
 # Build settings
-# theme: minima
-remote_theme: pages-themes/slate
+theme: minima
+
 plugins:
   - jekyll-feed
 
